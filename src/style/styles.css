@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+}
+.logInButton:hover {
+  /* transform: scale(1.1); */
+  background-color: #7FB77E;
+  color: white;
+  border: 1px #7FB77E solid;
+}

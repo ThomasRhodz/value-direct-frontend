@@ -1,6 +1,6 @@
 import * as React from "react";
 import TopLayout from "./TopLayout";
-import { store } from "../../src/redux/store";
+import { store } from "../../src/app/store";
 import { Provider as ReduxProvider } from "react-redux";
 // import { PersistGate } from 'redux-persist/integration/react';
 // import persistStore from 'redux-persist/es/persistStore';

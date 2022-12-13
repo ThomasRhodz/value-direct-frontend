@@ -7,7 +7,6 @@ import Logo from '../../images/ValueDirectLogo.png'
 import "../../style/styles.css";
 
 //For api call methods
-import { useGetUserTokenQuery } from "../../services/authApi";
 
 //For data handling
 import { useForm } from "react-hook-form";
@@ -15,7 +14,8 @@ import { navigate } from "gatsby";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useDispatch, useSelector } from "react-redux";
-import { selecAuthKey, selecRefKey, setAuth, setAuthToker, setRefToker } from "../../redux/auth";
+import { selecAuthKey, selecRefKey, setAuth, setAuthToker, setRefToker } from "../../app/redux/auth";
+import { useGetUserTokenQuery } from "../../app/services/authApi";
 
 //Schema: Rules for inputs
 const schema = yup.object({

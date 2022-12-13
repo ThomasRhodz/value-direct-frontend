@@ -17,7 +17,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 
 //Data Passing
-// import { useAddUserMutation } from "../../services/userApi";
+
 
 //Schema: Rules for inputs
 const schema = yup.object({

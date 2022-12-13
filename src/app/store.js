@@ -1,11 +1,11 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 
 //Redux
-import authReducer from "./auth";
+import authReducer from "./redux/auth";
 
 //RTK Query
 import { setupListeners } from "@reduxjs/toolkit/query";
-import { authApi } from "../services/authApi";
+import { authApi } from "./services/authApi";
 
 //Redux Persist
 import storage from "redux-persist/lib/storage";
